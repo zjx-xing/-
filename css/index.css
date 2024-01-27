@@ -1,0 +1,65 @@
+
+body{
+	background-color: red;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+}
+/*地图尺寸*/
+#box{
+	overflow: hidden;
+	height: 480px;
+	width: 480px;
+}
+/*地图下的格子大小12*12*/
+#box div{
+	float: left;
+	width: 40px;
+	height: 40px;
+}
+
+/*类选择器：属性隐藏*/
+.hide{
+	display:none;
+}
+
+/*初始定位方式*/
+#init{
+	position: relative;
+}
+
+/*初始下图片的不透明度*/
+#init img{
+	opacity: 0.5;
+}
+
+/*初始框定位*/
+#init .choice{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.img1{
+	background-image: url(../img/money.png);
+	background-size: contain;
+}
+
+/*背景颜色*/
+.img2{
+	background-color: rgb(80,80,146);
+}
+
+.img3{
+	background-image: url(../img/wall.png);
+	background-size: contain;
+}
+
+.img4{
+	background-image: url(../img/box.png);
+	background-size: contain;
+}
+
+.position{
+	background-image: url(../img/360chrome.png);
+}
